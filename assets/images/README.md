@@ -1,3 +1,12 @@
+---
+type: Directory Guide
+title: assets/images
+description: Guidance for placing reference images and screenshots in this bundle.
+generated:
+  by: process:okr-template/1
+  at: 2026-07-31T14:26:00Z
+---
+
 # assets/images
 
 > DO NOT INGEST: for reference only

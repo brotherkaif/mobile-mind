@@ -12,8 +12,8 @@ sources:
   - id: okf-spec-v02-live
     resource: https://raw.githubusercontent.com/GoogleCloudPlatform/knowledge-catalog/refs/heads/main/okf/SPEC.md
     title: Open Knowledge Format Specification (live)
-status: active
-verified: human-reviewed
+status: stable
+verified: { by: human:reviewer, at: 2026-07-31T14:26:00Z }
 ---
 
 # Scope
@@ -33,9 +33,9 @@ This is a practical reference for day-to-day authoring and maintenance in this b
 
 Use optional fields when needed:
 
-- `verified`: trust signal (`unverified`, `machine-confirmed`, `human-reviewed`).
-- `status`: lifecycle (`active`, `deprecated`, etc.).
-- `stale_after`: freshness threshold.
+- `verified`: list of verification events `{ by, at }`, where `by` is an actor; trust tiers are derived from whether a `human:<id>` actor appears.
+- `status`: lifecycle state (`draft`, `stable`, or `deprecated`).
+- `stale_after`: absolute ISO 8601 datetime after which content is considered stale.
 
 # Catalog-only query behavior
 
