@@ -1,10 +1,10 @@
 ---
 type: Guide
-title: OKR Template Usage Guide
-description: Tool-agnostic workflow for using this OKF v0.2 knowledge bundle template.
+title: Mobile Mind Usage Guide
+description: Tool-agnostic workflow for using the Mobile Mind OKF v0.2 knowledge bundle.
 generated:
   by: process:okr-template/1
-  at: 2026-07-31T14:26:00Z
+  at: 2026-10-03T00:00:00Z
 sources:
   - id: okf-spec-v02-pinned
     resource: https://raw.githubusercontent.com/GoogleCloudPlatform/knowledge-catalog/3fcbb9f828c2/okf/SPEC.md
@@ -14,9 +14,9 @@ sources:
     title: Open Knowledge Format Specification (live)
 ---
 
-# Using this template
+# Using Mobile Mind
 
-Copy this `okr/` directory to start a new research project, then rename the copy to your project name.
+Copy this directory to start a new Mobile Mind project, then rename the copy to your project name.
 
 # Generic agent workflow
 

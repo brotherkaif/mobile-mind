@@ -1,10 +1,10 @@
 ---
 type: Agent Operating Guide
-title: OKR Template Agent Rules
-description: Canonical operating policy for agents maintaining this OKF v0.2 bundle.
+title: Mobile Mind Agent Rules
+description: Canonical operating policy for agents maintaining the Mobile Mind OKF v0.2 bundle.
 generated:
   by: process:okr-template/1
-  at: 2026-07-31T14:26:00Z
+  at: 2026-10-03T00:00:00Z
 sources:
   - id: okf-spec-v02-pinned
     resource: https://raw.githubusercontent.com/GoogleCloudPlatform/knowledge-catalog/3fcbb9f828c2/okf/SPEC.md

@@ -2,7 +2,7 @@
 okf_version: "0.2"
 ---
 
-# OKR Template Knowledge Bundle
+# Mobile Mind
 
 ## Directories
 
@@ -15,7 +15,7 @@ okf_version: "0.2"
 
 ## Core Guides
 
-* [README](README.md) - How to use this template across agent tooling.
+* [README](README.md) - How to use Mobile Mind across agent tooling.
 * [AGENTS](AGENTS.md) - Canonical operating rules for all agents.
 * [log](log.md) - Chronological change history for this bundle.
 
