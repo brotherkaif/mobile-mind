@@ -29,7 +29,7 @@ Copy this directory to start a new Mobile Mind project, then rename the copy to 
 # Tool entry files
 
 | Tool | Entry file |
-|---|---|
+|---|---|---|
 | Copilot CLI / GitHub Copilot | `/.github/copilot-instructions.md` |
 | Claude CLI | `/CLAUDE.md` |
 | Gemini / Antigravity | `/GEMINI.md` |
@@ -38,15 +38,28 @@ Copy this directory to start a new Mobile Mind project, then rename the copy to 
 # Directory layout
 
 | Path | Purpose |
-|---|---|
+|---|---|---|
 | `index.md` | Root progressive-disclosure navigation (reserved file). |
 | `log.md` | Date-grouped update history (reserved file). |
 | `concepts/` | Durable domain knowledge. |
+| `concepts/events/` | Events and meetings extracted from journal entries. |
+| `concepts/projects/` | Investigations and potential projects extracted from journal entries. |
 | `references/` | Source-backed evidence and methodology notes. |
 | `playbooks/` | Repeatable procedures. |
 | `.agents/skills/` | Portable Agent Skills (`SKILL.md` per skill). |
 | `assets/raw/` | Raw external materials for ingestion tasks. |
+| `assets/raw/journal/` | Daily bullet-journal capture files (`YYYYMMDD.txt`). |
 | `outputs/` | Generated outputs such as audits and exports. |
+
+# Bullet journal ingestion
+
+This bundle includes a `journal-ingest` skill that reads daily capture files from `assets/raw/journal/YYYYMMDD.txt` and organises them into the curated `concepts/` tree.
+
+- Capture syntax: `/references/bullet-journal-syntax.md`
+- Skill definition: `/.agents/skills/journal-ingest/SKILL.md`
+- Curated output: `concepts/tasks.md`, `concepts/events/`, `concepts/projects/`, and `concepts/` for insights.
+
+Raw journal files use the `.txt` extension so they remain frictionless to write while keeping every `.md` file in the bundle strictly OKF v0.2 conformant.
 
 # Metadata rules
 
@@ -61,4 +74,5 @@ Copy this directory to start a new Mobile Mind project, then rename the copy to 
 The local summary in `/references/okf-v0.2.md` is operational guidance. Upstream OKF specification is authoritative if conflicts occur.[^okf-spec-v02-pinned]
 
 [^okf-spec-v02-pinned]: Source `okf-spec-v02-pinned` in frontmatter.
+
 

@@ -30,8 +30,9 @@ Maintain this directory as an OKF v0.2-conformant knowledge bundle with clear pr
 
 1. Querying the catalog: `/.agents/skills/okf-query/SKILL.md`
 2. Ingesting new source material: `/.agents/skills/okf-ingest/SKILL.md`
-3. Maintaining navigation and lifecycle: `/.agents/skills/okf-maintain/SKILL.md`
-4. Auditing conformance/trust/freshness: `/.agents/skills/okf-audit/SKILL.md`
+3. Ingesting bullet-journal entries: `/.agents/skills/journal-ingest/SKILL.md`
+4. Maintaining navigation and lifecycle: `/.agents/skills/okf-maintain/SKILL.md`
+5. Auditing conformance/trust/freshness: `/.agents/skills/okf-audit/SKILL.md`
 
 # Output expectations
 
